@@ -19,8 +19,8 @@ print(len(cadena))
 print(cadena[0 : 2]) #Imprime los dos primeros caracteres
 print(cadena[-3: ]) #Imprima los tres ultimos caracteres
 
-print(cadena[:: 2]) #imprima cada dos caracteres
+print(cadena[: : 2]) #imprima cada dos caracteres
 
-print(cadena[:: -1]) #imprima cadena en sentido inverso
+print(cadena[: : -1]) #imprima cadena en sentido inverso
 
 print(cadena[ :25] + cadena[:: -1]) #imprima cadena en un sentido y sentido inverso
