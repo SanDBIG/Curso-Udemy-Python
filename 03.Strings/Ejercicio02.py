@@ -4,8 +4,8 @@ Crear un programa que tenga una variable con la cadena “Separado” y un cará
 
 Pista: Debes utilizar un método de las cadenas llamado “Replace”, recuerda que la posición de los caracteres empieza en 0.'''
 
-cadena = "separado"
-caracter = ","
+palabra = "eparado"
+print(palabra)
 
-cadena_nueva = cadena.replace("", caracter).replace(caracter, "", 1)
-print(cadena_nueva)
+reemplazar = palabra.replace("" , ",")
+print("S" , reemplazar)
